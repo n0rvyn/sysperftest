@@ -28,17 +28,17 @@ FIO (I/O)
 IOZONE3 (Filesystem I/O)
     \-- <test passed>
 STREAM Benchmark (Memory)
-    -- <test passed>
+    \-- <test passed>
 NETPERF (Network Performance)
-    -- <test passed>
+    \-- <test passed>
 LMBENCH (FULL, Processor/Memory/File/Bandwidth)
-    -- <single copy test passwd>
+    \-- <single copy test passwd>
 UNIXBENCH (FULL)
-    -- <system bench test passed, get run state FAILED.>
+    \-- <system bench test passed, get run state FAILED.>
 Stress-ng (POC)
-    -- <test passed>
+    \-- <test passed>
 LTP (POC)
-    --
+    \--
 ---------------------------------------------------------------------------------------
 l. List and select script[s] running background
 r. Running state of script [True: running | False: finished]
