@@ -24,7 +24,7 @@
 ### Submenu
 \--------------------------------------------------------------------------------  
 FIO (I/O)  
-    -- \# todo <libaio not found error>  
+    \-- \# todo <libaio not found error>
 IOZONE3 (Filesystem I/O)  
     \-- <test passed>  
 STREAM Benchmark (Memory)  
@@ -39,7 +39,7 @@ Stress-ng (POC)
     \-- <test passed>  
 LTP (POC)  
     \--  
----------------------------------------------------------------------------------------
+\---------------------------------------------------------------------------------------
 l. List and select script[s] running background
 r. Running state of script [True: running | False: finished]
 c. Clean last results. <rm -rf /tmp/sysperftest/sysperftest_*>
