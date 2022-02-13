@@ -18,17 +18,18 @@
 >7. Sub Menu for system bench test
 >0. Inactive mode (Send command manually)
 >
->3.14  
->&ensp;\-\- Remove the whole directory '/tmp/sysperftest'
+>&emsp;&emsp;3.14
+&emsp;&emsp;--Remove the whole directory '/tmp/sysperftest'
 >
+---
 ### Submenu
->\--------------------------------------------------------------------------------<br>
-FIO (I/O)<br>
-    &ensp;\-\- \# todo <libaio not found error><br>
-IOZONE3 (Filesystem I/O)<br>
-    &ensp;\-\- \<test passed\><br>
-STREAM Benchmark (Memory)<br>
-    &ensp;\-\- \<test passed\><br>
+>\--------------------------------------------------------------------------------
+>FIO (I/O)<br>
+>    &emsp; -- # todo \<libaio not found error\>
+>IOZONE3 (Filesystem I/O)
+    &emsp; -- \<test passed\>
+STREAM Benchmark (Memory)
+    &emsp;\-\- \<test passed\>
 >NETPERF (Network Performance)
 >    \-\- \<test passed\>
 >LMBENCH (FULL, Processor/Memory/File/Bandwidth)
