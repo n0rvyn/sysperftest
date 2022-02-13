@@ -19,7 +19,7 @@
 >0. Inactive mode (Send command manually)
 >
 >3.14  
->&nbsp;\-\- Remove the whole directory '/tmp/sysperftest'
+>&nbsp;&nbsp;\-\- Remove the whole directory '/tmp/sysperftest'
 >
 ### Submenu
 >\--------------------------------------------------------------------------------
