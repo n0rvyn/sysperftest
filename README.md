@@ -22,16 +22,13 @@
 >&ensp;\-\- Remove the whole directory '/tmp/sysperftest'
 >
 ### Submenu
->\--------------------------------------------------------------------------------
-
->FIO (I/O)
->&ensp;\-\- \# todo <libaio not found error>
->IOZONE3 (Filesystem I/O)
->&ensp;\-\- \<test passed\>
-
->STREAM Benchmark (Memory)
-
->    \-\- \<test passed\>
+>\--------------------------------------------------------------------------------<br>
+FIO (I/O)<br>
+    &ensp;\-\- \# todo <libaio not found error><br>
+IOZONE3 (Filesystem I/O)<br>
+    &ensp;\-\- \<test passed\><br>
+STREAM Benchmark (Memory)<br>
+    &ensp;\-\- \<test passed\><br>
 >NETPERF (Network Performance)
 >    \-\- \<test passed\>
 >LMBENCH (FULL, Processor/Memory/File/Bandwidth)
