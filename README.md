@@ -22,11 +22,11 @@ Usage: ./remoteconsole.py
     -- Remove the whole directory '/tmp/sysperftest'
 
 ## Submenu
---------------------------------- -----------------------------------------------------
+---------------------------------Submenu-----------------------------------------
 FIO (I/O)
-    -- # todo <libaio not found error>
+    \-- # todo <libaio not found error>
 IOZONE3 (Filesystem I/O)
-    -- <test passed>
+    \-- <test passed>
 STREAM Benchmark (Memory)
     -- <test passed>
 NETPERF (Network Performance)
