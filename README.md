@@ -19,10 +19,11 @@
 >0. Inactive mode (Send command manually)
 >
 >3.14  
->    \-\- Remove the whole directory '/tmp/sysperftest'
+>&nbsp;\-\- Remove the whole directory '/tmp/sysperftest'
 >
 ### Submenu
 >\--------------------------------------------------------------------------------
+
 >FIO (I/O)
 >    \-\- \# todo <libaio not found error>
 >IOZONE3 (Filesystem I/O)
