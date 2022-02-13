@@ -19,16 +19,15 @@
 >0. Inactive mode (Send command manually)
 >
 >3.14  
->&nbsp;&nbsp;\-\- Remove the whole directory '/tmp/sysperftest'
+>&ensp;\-\- Remove the whole directory '/tmp/sysperftest'
 >
 ### Submenu
 >\--------------------------------------------------------------------------------
 
 >FIO (I/O)
->    \-\- \# todo <libaio not found error>
+>&ensp;\-\- \# todo <libaio not found error>
 >IOZONE3 (Filesystem I/O)
-
->    \-\- \<test passed\>
+>&ensp;\-\- \<test passed\>
 
 >STREAM Benchmark (Memory)
 
