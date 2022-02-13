@@ -22,7 +22,7 @@ Usage: ./remoteconsole.py
     -- Remove the whole directory '/tmp/sysperftest'
 
 ## Submenu
----------------------------------Submenu-----------------------------------------
+\---------------------------------Submenu-----------------------------------------
 FIO (I/O)
     \-- # todo <libaio not found error>
 IOZONE3 (Filesystem I/O)
