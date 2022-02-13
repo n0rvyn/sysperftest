@@ -22,33 +22,34 @@
 >    \-\- Remove the whole directory '/tmp/sysperftest'
 >
 ### Submenu
->--------------------------------------------------------------------------------  
->FIO (I/O)  
+>\--------------------------------------------------------------------------------
+>FIO (I/O)
 >    \-\- \# todo <libaio not found error>
-IOZONE3 (Filesystem I/O)  
-    -- <test passed>  
-STREAM Benchmark (Memory)  
-    -- <test passed>  
-NETPERF (Network Performance)  
-    -- <test passed>   
-LMBENCH (FULL, Processor/Memory/File/Bandwidth)  
-    -- <single copy test passwd>  
-UNIXBENCH (FULL)  
-    -- <system bench test passed, get run state FAILED.>  
-Stress-ng (POC)  
-    -- <test passed>  
-LTP (POC)  
-    --  
----------------------------------------------------------------------------------------
-l. List and select script[s] running background
-r. Running state of script [True: running | False: finished]
-c. Clean last results. <rm -rf /tmp/sysperftest/sysperftest_*>
-f. Fetch results exist (All files those names starts with 'sysperftest_').
+>IOZONE3 (Filesystem I/O)
+>    -- <test passed>
+>STREAM Benchmark (Memory)
+>    -- <test passed>
+>NETPERF (Network Performance)
+>    -- <test passed>
+>LMBENCH (FULL, Processor/Memory/File/Bandwidth)
+>    -- <single copy test passwd>
+>UNIXBENCH (FULL)
+>    -- <system bench test passed, get run state FAILED.>
+>Stress-ng (POC)
+>    -- <test passed>
+>LTP (POC)
+>    --
+>\---------------------------------------------------------------------------------------
+>l. List and select script[s] running background
+>r. Running state of script [True: running | False: finished]
+>c. Clean last results. <rm -rf /tmp/sysperftest/sysperftest_*>
+>f. Fetch results exist (All files those names starts with 'sysperftest_')
+>
+>R. Read 5 lines of log file '/tmp/sysperftest/log/remoteconsole.log'
+>L. List directory '/tmp/sysperftest/'
+>
+>A. Run all test and fetch the results
+>
+>[None][None]>>>>
 
-R. Read 5 lines of log file '/tmp/sysperftest/log/remoteconsole.log'
-L. List directory '/tmp/sysperftest/'
-
-A. Run all test and fetch the results
-
-[None][None]>>>>
 
