@@ -18,39 +18,39 @@
 >7. Sub Menu for system bench test
 >0. Inactive mode (Send command manually)
 >
->&emsp;&emsp;3.14
+>&emsp;3.14
 &emsp;&emsp;--Remove the whole directory '/tmp/sysperftest'
 >
----
-### Submenu
->\--------------------------------------------------------------------------------
->FIO (I/O)<br>
->    &emsp; -- # todo \<libaio not found error\>
->IOZONE3 (Filesystem I/O)
-    &emsp; -- \<test passed\>
-STREAM Benchmark (Memory)
-    &emsp;\-\- \<test passed\>
->NETPERF (Network Performance)
->    \-\- \<test passed\>
->LMBENCH (FULL, Processor/Memory/File/Bandwidth)
->    -- <single copy test passwd>
->UNIXBENCH (FULL)
->    -- <system bench test passed, get run state FAILED.>
->Stress-ng (POC)
->    -- <test passed>
->LTP (POC)
->    --
->\---------------------------------------------------------------------------------------
->l. List and select script[s] running background
->r. Running state of script [True: running | False: finished]
->c. Clean last results. <rm -rf /tmp/sysperftest/sysperftest_*>
->f. Fetch results exist (All files those names starts with 'sysperftest_')
->
->R. Read 5 lines of log file '/tmp/sysperftest/log/remoteconsole.log'
->L. List directory '/tmp/sysperftest/'
->
->A. Run all test and fetch the results
->
->[None][None]>>>>
 
+### Submenu
+>\---------------------------------------------------------------------------------  
+>FIO (I/O)   
+>    &emsp; -- # todo \<libaio not found error\>  
+>IOZONE3 (Filesystem I/O)  
+    &emsp; -- \<test passed\>  
+STREAM Benchmark (Memory)  
+    &emsp;\-\- \<test passed\>  
+>NETPERF (Network Performance)  
+>    &emsp;\-\- \<test passed\>  
+>LMBENCH (FULL, Processor/Memory/File/Bandwidth)  
+>    &emsp;-- <single copy test passwd>  
+>UNIXBENCH (FULL)   
+>    &emsp;-- <system bench test passed, get run state FAILED.>   
+>Stress-ng (POC)  
+>    &emsp;-- <test passed>  
+>LTP (POC)  
+>
+>\---------------------------------------------------------------------------------------  
+>l. List and select script[s] running background  
+>r. Running state of script [True: running | False: finished]  
+>c. Clean last results. <rm -rf /tmp/sysperftest/sysperftest_*>  
+>f. Fetch results exist (All files those names starts with 'sysperftest_')  
+>  
+>R. Read 5 lines of log file '/tmp/sysperftest/log/remoteconsole.log'  
+>L. List directory '/tmp/sysperftest/'  
+>  
+>A. Run all test and fetch the results  
+>  
+>[None][None]>>>>  
+  
 
