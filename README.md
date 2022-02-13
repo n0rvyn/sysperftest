@@ -9,7 +9,7 @@
 ### Main Menu
 >--------------------------------M A I N  M E N U--------------------------------
 >
->1. List and select host group [None selected means all hosts]
+>1. List and select host group \[None selected means all hosts\]
 >2. Ping test for multiple host[s]
 >3. Init remote ssh console for host[s] specified (once group changed)
 >4. YUM setup for host[s] initiated
