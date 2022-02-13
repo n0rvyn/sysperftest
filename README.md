@@ -26,11 +26,14 @@
 >FIO (I/O)
 >    \-\- \# todo <libaio not found error>
 >IOZONE3 (Filesystem I/O)
->    -- <test passed>
+
+>    \-\- \<test passed\>
+
 >STREAM Benchmark (Memory)
->    -- <test passed>
+
+>    \-\- \<test passed\>
 >NETPERF (Network Performance)
->    -- <test passed>
+>    \-\- \<test passed\>
 >LMBENCH (FULL, Processor/Memory/File/Bandwidth)
 >    -- <single copy test passwd>
 >UNIXBENCH (FULL)
