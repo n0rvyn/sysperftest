@@ -1,12 +1,12 @@
 # sysperftest
 
-***
-System performance test script
+### Brief
+**System performance test script**
 
-***
-Usage: ./remoteconsole.py
+### Usage
+**Usage**: ./remoteconsole.py
 
-## Main Menu
+### Main Menu
 --------------------------------M A I N  M E N U--------------------------------
 
 1. List and select host group [None selected means all hosts]
@@ -18,27 +18,27 @@ Usage: ./remoteconsole.py
 7. Sub Menu for system bench test
 0. Inactive mode (Send command manually)
 
-3.14
+3.14  
     -- Remove the whole directory '/tmp/sysperftest'
 
-## Submenu
-\---------------------------------Submenu-----------------------------------------
-FIO (I/O)
-    \-- # todo <libaio not found error>
-IOZONE3 (Filesystem I/O)
-    \-- <test passed>
-STREAM Benchmark (Memory)
-    \-- <test passed>
-NETPERF (Network Performance)
-    \-- <test passed>
-LMBENCH (FULL, Processor/Memory/File/Bandwidth)
-    \-- <single copy test passwd>
-UNIXBENCH (FULL)
-    \-- <system bench test passed, get run state FAILED.>
-Stress-ng (POC)
-    \-- <test passed>
-LTP (POC)
-    \--
+### Submenu
+\--------------------------------------------------------------------------------  
+FIO (I/O)  
+    -- \# todo <libaio not found error>  
+IOZONE3 (Filesystem I/O)  
+    \-- <test passed>  
+STREAM Benchmark (Memory)  
+    \-- <test passed>  
+NETPERF (Network Performance)  
+    \-- <test passed>   
+LMBENCH (FULL, Processor/Memory/File/Bandwidth)  
+    \-- <single copy test passwd>  
+UNIXBENCH (FULL)  
+    \-- <system bench test passed, get run state FAILED.>  
+Stress-ng (POC)  
+    \-- <test passed>  
+LTP (POC)  
+    \--  
 ---------------------------------------------------------------------------------------
 l. List and select script[s] running background
 r. Running state of script [True: running | False: finished]
