@@ -4,7 +4,7 @@
 **System performance test script**
 
 ### Usage
-**Usage**: ./remoteconsole.py
+**Usage**: `./remoteconsole.py`
 
 ### Main Menu
 >--------------------------------M A I N  M E N U--------------------------------
