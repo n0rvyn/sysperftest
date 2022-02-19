@@ -1,10 +1,29 @@
 # sysperftest
 
 ### Brief
-**System performance test script**
+**Multiple Linux Hosts System Performance Test Script**   
+**来点中文吧，词穷了。就是给信创项目批量测试性能用的，setup.py咱也不会写，直接手补。**  
+
+#### 管理端环境: 
+- RHEL7.9及以上（其它版本未测试，支不支持不关心）
+- Python-3.6.8及以上
+- Paramiko-2.x及其依赖包
+#### 支持的受管主机版本：
+- RHEL7/8
+- UOS20 (x86_64 & arm)
+- KylinV10 (x86_64 & arm)
+
+#### 支持的测试工具：
+- lmbench
+- iozone3
+- LTP
+- netperf
+- stream
+- unixbench
 
 ### Usage
 **Usage**: `./remoteconsole.py`
+**明白人一看就懂**
 
 ### Main Menu
 >--------------------------------M A I N  M E N U--------------------------------
