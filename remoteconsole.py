@@ -16,13 +16,10 @@
 """
 import os
 import subprocess
-import random
 import time
 import threading
-import sys
 from sshconsole import sshconsole
 from sshconsole import busybox
-import tarfile
 
 """
 Remote SSH console and Multiple threading remote machine system performance test console.
@@ -59,7 +56,8 @@ _BIN_PATH = os.path.join(_HOME, 'bin')
 # define the directory on local host to store results from kind of tools
 _PKG_RESULTS_ORIGIN_PATH = os.path.join(_HOME, 'results/original')
 # define the directory to store results after organised.
-_PKG_RESULTS_EXL_PATH = os.path.join(_HOME, 'results/original')
+# define the directory to store results in excel format
+_PKG_RESULTS_EXL_PATH = os.path.join(_HOME, 'results/excel')
 
 try:
     # check if the directory defined above exist

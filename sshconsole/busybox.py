@@ -15,7 +15,6 @@
 
 """
 import os
-import time
 import logging
 import sys
 
@@ -113,4 +112,3 @@ def LogAutoClean(filename: str, max_size: int):
 
 if __name__ == '__main__':
     pass
-
