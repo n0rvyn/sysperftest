@@ -16,13 +16,9 @@
 """
 import os
 import tarfile
-import random
 import time
 import socket
-import threading
-import sys
 import paramiko
-import tempfile
 
 try:
     import busybox
@@ -37,7 +33,7 @@ _home = os.path.abspath(os.path.dirname(__file__))
 _log_path = os.path.join(_home, 'log')
 try:
     os.makedirs(_log_path)
-except FileExistsError as e:
+except FileExistsError:
     pass
 _log_file = os.path.join(_log_path, 'sshconsole.log')
 
